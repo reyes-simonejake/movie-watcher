@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="swiper-bundle.min.css">
+    <title>Responsive Movies Website</title>
+    <link rel="shortcut icon" href="img/fav-icon.png" type="image/x-icon" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="nav container"> <a href="index.html" class="logo"> Easy<span>Flix</span> </a>
+
+        <div class="search-box">
+          <input
+            type="search"
+            name=""
+            id="search-input"
+            placeholder="Search movie"
+          />
+          <i class="bx bx-search"></i>
+        </div>
+        <a href="" class="user">
+          <img src="img/user2.jpg" alt="" class="user-img" />
+        </a>
+
+        <div class="navbar">
+          <a href="#home" class="nav-link nav-active">
+            <i class="bx bx-home"></i>
+            <span class="nav-link-title">Home</span>
+          </a>
+          <a href="#popular" class="nav-link">
+            <i class="bx bxs-hot"></i>
+            <span class="nav-link-title">Trending</span>
+          </a>
+          <a href="#movies" class="nav-link">
+            <i class="bx bx-compass"></i>
+            <span class="nav-link-title">Explore</span>
+          </a>
+          <a href="play-page.html" class="nav-link">
+            <i class="bx bx-tv"></i>
+            <span class="nav-link-title">Movie</span>
+          </a>
+          <a href="#home" class="nav-link">
+            <i class="bx bx-heart"></i>
+            <span class="nav-link-title">Favourite</span>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <section class="home container" id="home">
+      <img src="img/elcamino.png" alt="" class="home-img" />
+      <div class="home-text">
+        <h1 class="home-title">El Camino</h1>
+        <p>A Breaking Bad Movie</p>
+        <a href="#" class="watch-btn">
+            <i class='bx bx-right-arrow' ></i>
+            <span>Watch the trailer</span>
+        </a>
+        </h1>
+      </div>
+    </section>
+
+
+    <!--Home End-->
+    <!--Popular Section Start-->
+   <section class="popular container" id="popular">
+        <div class="heading">
+            <h2 class="heading-title">Popular Movies</h2>
+            <div class="swiper-btn">
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
+
+        <div class="popular-content swiper">
+            <div class="swiper-wrapper">
+                <!--Movie box 1-->
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="img/moana.jpg" alt="" class="movie-box-img">
+                        <div class="box-text">
+                            <h2 class="movie-title">Moana 2</h2>
+                            <span class="movie-type">Adventure</span>
+                            <a href="#" class="watch-btn play-btn">
+                                <i class='bx bx-right-arrow' ></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!--Movie box 2-->
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="img/venom.jpg" alt="" class="movie-box-img">
+                        <div class="box-text">
+                            <h2 class="movie-title">Venom</h2>
+                            <span class="movie-type">Action, Science,<br> Adventure</span>
+                            <a href="#" class="watch-btn play-btn">
+                                <i class='bx bx-right-arrow' ></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!--Movie box 3-->
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="img/wild-robot.jpg" alt="" class="movie-box-img">
+                        <div class="box-text">
+                            <h2 class="movie-title">Wild Robot</h2>
+                            <span class="movie-type">Animation, <br>Science Fiction</span>
+                            <a href="#" class="watch-btn play-btn">
+                                <i class='bx bx-right-arrow' ></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!--Movie box 4-->
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="img/Absolution.jpg" alt="" class="movie-box-img">
+                        <div class="box-text">
+                            <h2 class="movie-title">Absolution</h2>
+                            <span class="movie-type">Action, Drama</span>
+                            <a href="#" class="watch-btn play-btn">
+                                <i class='bx bx-right-arrow' ></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                 <!--Movie box 5-->
+                 <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="img/arena-w3ars.jpg" alt="" class="movie-box-img">
+                        <div class="box-text">
+                            <h2 class="movie-title">Arena Wars</h2>
+                            <span class="movie-type">Action, Science Fiction, Thriller</span>
+                            <a href="#" class="watch-btn play-btn">
+                                <i class='bx bx-right-arrow' ></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                 <!--Movie box 6-->
+                 <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="img/minions.jpg" alt="" class="movie-box-img">
+                        <div class="box-text">
+                            <h2 class="movie-title">Despicable Me 4</h2>
+                            <span class="movie-type">Animation, Family, <br>Comedy, Action</span>
+                            <a href="#" class="watch-btn play-btn">
+                                <i class='bx bx-right-arrow' ></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Movie box 7-->
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="img/apocalyypse.jpg" alt="" class="movie-box-img">
+                        <div class="box-text">
+                            <h2 class="movie-title">Apocalypse Z: The Beginning of the End</h2>
+                            <span class="movie-type">Action, Fantasy,<br> Horror</span>
+                            <a href="#" class="watch-btn play-btn">
+                                <i class='bx bx-right-arrow' ></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Movie box 8-->
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="img/gladiator.jpg" alt="" class="movie-box-img">
+                        <div class="box-text">
+                            <h2 class="movie-title">Gladiator II</h2>
+                            <span class="movie-type">Action, Adventure</span>
+                            <a href="#" class="watch-btn play-btn">
+                                <i class='bx bx-right-arrow' ></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+              </div>
+        </div>
+   </section> 
+   <!--Popular Section End-->
+
+   <!--Movies Section Start-->
+   <section class="movies container" id="movies">
+    <div class="heading">
+        <h2 class="heading-title">Movies and Series</h2>
+        
+    </div>
+    <!--Movies Content-->
+    <div class="movies-content">
+        <!--Movie Box 1-->
+        <div class="movie-box">
+            <img src="img/arcane.png" alt="" class="movie-box-img">
+            <div class="box-text">
+                <h2 class="movie-title">Arcane Season 2</h2>
+                <span class="movie-type">Adventure</span>
+                <a href="play-page.html" class="watch-btn play-btn">
+                    <i class='bx bx-right-arrow' ></i>
+                </a>
+            </div>
+        </div>
+
+
+        <!--Movie Box 2-->
+        <div class="movie-box">
+            <img src="img/black.jpg" alt="" class="movie-box-img">
+            <div class="box-text">
+                <h2 class="movie-title">Black Adam</h2>
+                <span class="movie-type">Action</span>
+                <a href="#" class="watch-btn play-btn">
+                    <i class='bx bx-right-arrow' ></i>
+                </a>
+            </div>
+        </div>
+
+
+        <!--Movie Box 3-->
+        <div class="movie-box">
+            <img src="img/deadppool.jpg" alt="" class="movie-box-img">
+            <div class="box-text">
+                <h2 class="movie-title">Deadpool & Wolverine</h2>
+                <span class="movie-type">Action</span>
+                <a href="#" class="watch-btn play-btn">
+                    <i class='bx bx-right-arrow' ></i>
+                </a>
+            </div>
+        </div>
+
+        <!--Movie Box 4-->
+        <div class="movie-box">
+            <img src="img/joker.jpg" alt="" class="movie-box-img">
+            <div class="box-text">
+                <h2 class="movie-title">Joker: Folie à Deux</h2>
+                <span class="movie-type">Adventure, Love</span>
+                <a href="#" class="watch-btn play-btn">
+                    <i class='bx bx-right-arrow' ></i>
+                </a>
+            </div>
+        </div>
+
+         <!--Movie Box 5-->
+         <div class="movie-box">
+            <img src="img/longlegs.jpg" alt="" class="movie-box-img">
+            <div class="box-text">
+                <h2 class="movie-title">Longlegs</h2>
+                <span class="movie-type">Horror</span>
+                <a href="#" class="watch-btn play-btn">
+                    <i class='bx bx-right-arrow' ></i>
+                </a>
+            </div>
+        </div>
+
+
+        <!--Movie Box 6-->
+        <div class="movie-box">
+            <img src="img/breakingbad.jpg" alt="" class="movie-box-img">
+            <div class="box-text">
+                <h2 class="movie-title">Breaking Bad</h2>
+                <span class="movie-type">Action, Science</span>
+                <a href="#" class="watch-btn play-btn">
+                    <i class='bx bx-right-arrow' ></i>
+                </a>
+            </div>
+        </div>
+
+
+        <!--Movie Box 7-->
+        <div class="movie-box">
+            <img src="img/peaky.jpg" alt="" class="movie-box-img">
+            <div class="box-text">
+                <h2 class="movie-title">Peaky Blinders</h2>
+                <span class="movie-type">Action</span>
+                <a href="#" class="watch-btn play-btn">
+                    <i class='bx bx-right-arrow' ></i>
+                </a>
+            </div>
+        </div>
+
+        <!--Movie Box 8-->
+        <div class="movie-box">
+            <img src="img/Bets.jpg" alt="" class="movie-box-img">
+            <div class="box-text">
+                <h2 class="movie-title">No More Bets</h2>
+                <span class="movie-type">Action, Crime</span>
+                <a href="#" class="watch-btn play-btn">
+                    <i class='bx bx-right-arrow' ></i>
+                </a>
+            </div>
+        </div>
+    </div>
+   </section>
+   <!--Movies Section End-->
+   <!--Next Page-->
+   <div class="next-page">
+        <a href="" class="next-btn">Next Page</a>
+   </div>
+   <!--Copyright-->
+   <div class="copyright">
+        <p>&#169; JakeFlix All Right Reserved</p>
+   </div>
+
+    <script src="swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
